@@ -1,0 +1,5 @@
+In command prompt write
+cd YOUR JAVA JDK BIN path
+and then write below command
+
+keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
